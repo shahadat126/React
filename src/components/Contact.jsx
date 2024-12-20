@@ -1,11 +1,14 @@
 // import React from 'react';
 
+import { Fragment } from "react";
+
 const Contact = () => {
     return (
-        <div>
+        <Fragment>
             <input type="text" name="" id="" />
             <button>Submit</button>
-        </div>
+            <h1>{new Date().getTime()}</h1>
+        </Fragment>
     );
 };
 
