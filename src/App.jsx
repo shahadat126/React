@@ -6,9 +6,11 @@
 // import Index from "./components/card/index";
 import Data from "./components/mapping_data/data.json";
 import Index2 from "./components/mapping_data/index";
+import UniqueId from "./components/mapping_data/unique_id";
 
 const App = () => {
-  let items = [];
+  
+  // let items = [];
   // for(let x=0;x<Data.length;x++)
   // {
   //   items.push(<Index2 titleText={Data[3].title} descText={Data[x].desc} />)
@@ -16,9 +18,10 @@ const App = () => {
    
   return (
     <div>
-      {Data.map((item,index)=><Index2 key={index} titleText={item.title} descText={item.desc} />)}
-    </div>
-  );
+      <UniqueId/>
+       
+     </div>
+   );
 };
 
 export default App;
