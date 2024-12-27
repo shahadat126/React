@@ -6,6 +6,7 @@
 // import Index from "./components/card/index";
 import Data from "./components/mapping_data/data.json";
 import Index2 from "./components/mapping_data/index";
+import Nested_List from "./components/mapping_data/Nested_List";
 import UniqueId from "./components/mapping_data/unique_id";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
   return (
     <div>
       <UniqueId/>
+      <Nested_List/>
        
      </div>
    );
