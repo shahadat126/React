@@ -4,6 +4,8 @@
 // import IIF from "./components/IIF";
 // import Map from "./components/Map";
 // import Index from "./components/card/index";
+import Card from "./components/Class/Class_c";
+import Class_c from "./components/Class/Class_c";
 import Data from "./components/mapping_data/data.json";
 import Index2 from "./components/mapping_data/index";
 import Nested_List from "./components/mapping_data/Nested_List";
@@ -21,6 +23,7 @@ const App = () => {
     <div>
       <UniqueId/>
       <Nested_List/>
+      <Card name="SK" title="Eng"/>
        
      </div>
    );
