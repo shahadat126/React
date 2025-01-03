@@ -10,6 +10,7 @@ import Data from "./components/mapping_data/data.json";
 import Index2 from "./components/mapping_data/index";
 import Nested_List from "./components/mapping_data/Nested_List";
 import UniqueId from "./components/mapping_data/unique_id";
+import EventBinding from "./components/State/EventBinding";
 import EventHandler from "./components/State/EventHandler";
 import State from './components/State/state';
 
@@ -28,6 +29,7 @@ const App = () => {
       <Card name="SK" title="Eng"/>
       <State/>
       <EventHandler/>
+      <EventBinding/>
 
        
      </div>
