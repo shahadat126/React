@@ -10,6 +10,7 @@ import Data from "./components/mapping_data/data.json";
 import Index2 from "./components/mapping_data/index";
 import Nested_List from "./components/mapping_data/Nested_List";
 import UniqueId from "./components/mapping_data/unique_id";
+import EventHandler from "./components/State/EventHandler";
 import State from './components/State/state';
 
 const App = () => {
@@ -22,10 +23,12 @@ const App = () => {
    
   return (
     <div>
-      <UniqueId/>
-      <Nested_List/>
+      {/* <UniqueId/>
+      <Nested_List/> */}
       <Card name="SK" title="Eng"/>
       <State/>
+      <EventHandler/>
+
        
      </div>
    );

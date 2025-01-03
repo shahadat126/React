@@ -5,6 +5,7 @@ button{
     background-color: limegreen;
     color: whitesmoke;
     margin-right: 10px;
+    margin-bottom: 10px;
     font-size: 2rem;
     width: 80px;
 }
