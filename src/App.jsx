@@ -14,6 +14,7 @@ import EventBinding from "./components/State/EventBinding";
 import EventHandler from "./components/State/EventHandler";
 import State from "./components/State/state";
 import StateMinClass from "./components/State/StateMinClass";
+import UpdateState from "./components/State/UpdateState";
 import UseState from "./components/State/UseState";
 
 
@@ -34,6 +35,7 @@ const App = () => {
       <EventBinding />
       <StateMinClass />
       <UseState/>
+      <UpdateState/>
     </div>
   );
 };
