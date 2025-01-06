@@ -12,9 +12,10 @@ class StateMinClass extends Component {
     this.setState({ count: this.state.count + 1 });
   };
   render() {
+    const {count} = this.state
     return (
       <div>
-        <h1>Count: {this.state.count}</h1>
+        <h1>Count: {count}</h1>
         <button onClick={this.eventChange}>increment</button>
       </div>
     );
