@@ -12,28 +12,30 @@ import Nested_List from "./components/mapping_data/Nested_List";
 import UniqueId from "./components/mapping_data/unique_id";
 import EventBinding from "./components/State/EventBinding";
 import EventHandler from "./components/State/EventHandler";
-import State from './components/State/state';
+import State from "./components/State/state";
+import StateMinClass from "./components/State/StateMinClass";
+import UseState from "./components/State/UseState";
+
 
 const App = () => {
-  
   // let items = [];
   // for(let x=0;x<Data.length;x++)
   // {
   //   items.push(<Index2 titleText={Data[3].title} descText={Data[x].desc} />)
   // }
-   
+
   return (
     <div>
       {/* <UniqueId/>
       <Nested_List/> */}
-      <Card name="SK" title="Eng"/>
-      <State/>
-      <EventHandler/>
-      <EventBinding/>
-
-       
-     </div>
-   );
+      <Card name="SK" title="Eng" />
+      <State />
+      <EventHandler />
+      <EventBinding />
+      <StateMinClass />
+      <UseState/>
+    </div>
+  );
 };
 
 export default App;

@@ -21,6 +21,7 @@ class EventBinding extends Component {
                 
             </div>
             //bind used when arrow function not used
+            
         );
     }
 }
